@@ -7,8 +7,8 @@
  ******************************************************************************
  */
 
-#ifndef ALLOY_BACKEND_X64_X64_LOWERING_TRACERS_H_
-#define ALLOY_BACKEND_X64_X64_LOWERING_TRACERS_H_
+#ifndef ALLOY_BACKEND_X64_LOWERING_TRACERS_H_
+#define ALLOY_BACKEND_X64_LOWERING_TRACERS_H_
 
 #include <alloy/core.h>
 
@@ -59,4 +59,4 @@ void TraceMemoryStoreV128(void* raw_context, uint64_t address, __m128 value);
 }  // namespace alloy
 
 
-#endif  // ALLOY_BACKEND_X64_X64_LOWERING_TRACERS_H_
+#endif  // ALLOY_BACKEND_X64_LOWERING_TRACERS_H_

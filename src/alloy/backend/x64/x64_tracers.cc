@@ -7,7 +7,7 @@
  ******************************************************************************
  */
 
-#include <alloy/backend/x64/lowering/tracers.h>
+#include <alloy/backend/x64/x64_tracers.h>
 
 #include <alloy/backend/x64/x64_emitter.h>
 #include <alloy/runtime/runtime.h>

@@ -12,11 +12,11 @@
     'x64_emitter.h',
     'x64_function.cc',
     'x64_function.h',
+    'x64_selector.y',
+    'x64_selector_util.h',
     'x64_thunk_emitter.cc',
     'x64_thunk_emitter.h',
-  ],
-
-  'includes': [
-    'lowering/sources.gypi',
+    'x64_tracers.cc',
+    'x64_tracers.h',
   ],
 }
